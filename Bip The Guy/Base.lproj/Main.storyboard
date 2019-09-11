@@ -18,15 +18,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image0" translatesAutoresizingMaskIntoConstraints="NO" id="K75-Pg-FrS">
-                                <rect key="frame" x="20" y="59" width="374" height="498"/>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image1" translatesAutoresizingMaskIntoConstraints="NO" id="K75-Pg-FrS">
+                                <rect key="frame" x="20" y="59" width="374" height="16"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="MUs-Tz-Gnc" appends="YES" id="jZX-Hq-RCZ"/>
                                 </connections>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose an Image to Bip" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SX2-Yb-RkV">
-                                <rect key="frame" x="105" y="595" width="216" height="26"/>
+                                <rect key="frame" x="105" y="113" width="216" height="26"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="26" id="cqO-4h-8b7"/>
                                 </constraints>
@@ -35,10 +35,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="mJt-S1-JxY">
-                                <rect key="frame" x="96" y="629" width="222" height="32"/>
+                                <rect key="frame" x="96" y="147" width="222" height="514"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dBI-MC-FcK">
-                                        <rect key="frame" x="0.0" y="0.0" width="98" height="32"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="98" height="514"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                         <state key="normal" title="Photo Library"/>
                                         <connections>
@@ -46,7 +46,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q7u-Pv-D53">
-                                        <rect key="frame" x="128" y="0.0" width="94" height="32"/>
+                                        <rect key="frame" x="128" y="0.0" width="94" height="514"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                         <state key="normal" title="Take a Photo"/>
                                         <connections>
@@ -85,6 +85,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="image0" width="3024" height="4032"/>
+        <image name="image1" width="1125" height="1635"/>
     </resources>
 </document>
